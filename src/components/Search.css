@@ -1,0 +1,21 @@
+.input {
+  display: flex;
+  max-width: 100%;
+  justify-content: center;
+  margin: 10px auto;
+}
+
+.input > input:focus {
+  width: 70%;
+  padding: 5px 10px;
+  font-size: 20px;
+  border: none;
+}
+
+.input > input {
+  -webkit-transition: width 1s ease-in-out;
+  -moz-transition: width 1s ease-in-out;
+  -o-transition: width 1s ease-in-out;
+  transition: width 1s ease-in-out;
+  padding: 2px 1px;
+}
